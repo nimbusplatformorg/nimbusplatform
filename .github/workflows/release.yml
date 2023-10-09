@@ -2,7 +2,9 @@ name: bloc
 "on":
   pull_request:
     branches:
-      - release/*
+      - master
+      - staging
+      - release/**
 defaults:
   run:
     shell: bash
