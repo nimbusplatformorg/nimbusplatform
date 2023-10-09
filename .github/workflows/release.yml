@@ -4,6 +4,7 @@ name: bloc
     branches:
       - master
       - staging
+      - release/**
 defaults:
   run:
     shell: bash

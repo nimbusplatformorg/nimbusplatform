@@ -12,14 +12,14 @@ var path = require("path");
 
 export async function mainTMP0001_Deployment() {
     var scriptName = path.basename(__filename);
-    console.log("======================================");
-    console.log(`🔁 Executing ${scriptName}`);
-    console.log("======================================");
+    console.log("=====================================================================");
+    console.log(`🔁 Executing ${scriptName} - 💻 operational script`);
+    console.log("=====================================================================");
     console.log("✍  Tasks solved in this script:\n");
-    console.log("*️⃣  TMP-0000: Template for deploying a contract");
-    console.log("*️⃣  TMP-0000: Template for deploying a contract");
-    console.log("*️⃣  TMP-0000: Template for deploying a contract");
-    console.log("*️⃣  TMP-0000: Template for deploying a contract");
+    console.log("*️⃣  TMP-0001: Template for deploying a contract");
+    console.log("*️⃣  TMP-0001: Template for deploying a contract");
+    console.log("*️⃣  TMP-0001: Template for deploying a contract");
+    console.log("*️⃣  TMP-0001: Template for deploying a contract");
     console.log("\n\n\n");
 }
 
