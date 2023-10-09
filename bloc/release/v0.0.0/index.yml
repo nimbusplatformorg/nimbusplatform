@@ -1,14 +1,35 @@
-title: Deploying Box using Hardhat
+# ✍ A short title for the release
+title: Template release
+
+# ✍ Remove if no deployment to blockchain is needed
 network: bscTestnet
+
+# ✍ Remove if no deployment to blockchain is needed
 deploy: npx hardhat run release/v0.0.0/deploy.ts
-audited: 85b015631800346159d10bf389e36a0304447d0b
+
+# ✍ Comment/Remove if no deployment to blockchain is needed
+verify: npx hardhat run release/v0.0.0/verify.ts
+
+# ✍ Remove if no deployment to blockchain is needed
+# audited: 85b015631800346159d10bf389e36a0304447d0b
+
+# ✍ Describe here the list of changes included in this release
 description: |
-  ### 🤖 [[AP] Re-staking. . .](https://ioalabs.atlassian.net/browse/NBP-3543)
+  ### 🔨 Work done
+  - [x] 🤖 [[AP] Re-staking. . .](https://ioalabs.atlassian.net/browse/NBP-3543)
+  - [x] 🤖 [[AP] Re-staking. . .](https://ioalabs.atlassian.net/browse/NBP-3543)
+  - [x] 🤖 [[AP] Re-staking. . .](https://ioalabs.atlassian.net/browse/NBP-3543)
+  - [x] 🤖 [[AP] Re-staking. . .](https://ioalabs.atlassian.net/browse/NBP-3543)
+  - [x] 🤖 [[AP] Re-staking. . .](https://ioalabs.atlassian.net/browse/NBP-3543)
+  - [x] 🤖 . . .
+
+  ### ✍ Work description
+  #### 🤖 [[AP] Re-staking. . .](https://ioalabs.atlassian.net/browse/NBP-3543)
   Feature 6: As a user, I make a . . .
 
-  #### 📘 (1) User makes a . . .
+  ##### 📘 (1) User makes a . . .
 
-  ##### 📖 Scenario 1: User makes . . .
+  ###### 📖 Scenario 1: User makes . . .
 
   ```gherkin
   Given . . . whatever
