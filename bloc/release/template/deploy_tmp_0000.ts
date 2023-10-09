@@ -19,9 +19,9 @@ let CONTRACT_NAME = "Box";
 
 export async function mainTMP0000_Deployment() {
     var scriptName = path.basename(__filename);
-    console.log("======================================");
-    console.log(`🔁 Executing ${scriptName}`);
-    console.log("======================================");
+    console.log("=====================================================================");
+    console.log(`🔁 Executing ${scriptName} - 🚀 Deployment script`);
+    console.log("=====================================================================");
     console.log("✍  Tasks solved in this script:\n");
     console.log("*️⃣  TMP-0000: Template for deploying a contract");
     console.log("*️⃣  TMP-0000: Template for deploying a contract");
