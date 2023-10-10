@@ -1,27 +1,5 @@
 {
 	"bscTestnet": {
-		"Box": {
-			"address": "0x2CD80e2c9188565057632077e0a2210341a46980",
-			"ABI": [
-				"constructor() nonpayable",
-				"event Initialized(uint8 version)",
-				"event ValueChanged(uint256 value)",
-				"function initialize(uint256 initialValue) payable",
-				"function retrieve() view returns (uint256)",
-				"function store(uint256 value)"
-			],
-			"roles": {},
-			"transactionHash": "0x357abd3302a8c306a002fd959761b3754ddee24b60290186288e0a426ce3ab78",
-			"deploymentHistory": [
-				{
-					"developer": "Pedro Reyes",
-					"date": "2023-10-09 21:53:02 CET",
-					"branch": "HEAD",
-					"hash": "0x357abd3302a8c306a002fd959761b3754ddee24b60290186288e0a426ce3ab78",
-					"address": "0x2CD80e2c9188565057632077e0a2210341a46980"
-				}
-			]
-		},
 		"Circle": {
 			"address": "0x4C97A6cBB0dC1CEcB0167d2245D4BB357a42f72D",
 			"ABI": [
