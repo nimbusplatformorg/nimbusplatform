@@ -1,0 +1,20 @@
+# ✍ A short title for the release
+title: Template release
+
+# ✍ Remove if no deployment to blockchain is needed
+network: bscTestnet
+
+# ✍ Remove if no deployment to blockchain is needed
+deploy: npx hardhat run release/[next_release_version_here]/deploy.ts
+
+# ✍ Comment/Remove if no deployment to blockchain is needed
+verify: npx hardhat run release/[next_release_version_here]/verify.ts
+
+# ✍ Remove if no deployment to blockchain is needed
+# audited: 85b015631800346159d10bf389e36a0304447d0b
+
+# ✍ Describe here the list of changes included in this release
+description: |
+  ### 🔨 Work done
+  - [x] 🤖 [[AP] Re-staking with $0.0003 NIMB entry price for all Stakings which were purchased before  23.09.2023](https://ioalabs.atlassian.net/browse/NBP-3543)
+  - [x] 🤖 . . .

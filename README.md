@@ -34,7 +34,7 @@ If you have a new task called `TASK-0001 Description here of an important task f
 
 ```bash
 $ git checkout staging
-$ git pull origin staging
+$ git pull origin master
 $ git checkout -b TASK-0001
 ```
 
