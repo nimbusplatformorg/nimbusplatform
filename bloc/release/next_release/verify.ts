@@ -4,7 +4,8 @@
 // When running the script with `npx hardhat run <script>` you'll find the Hardhat
 // Runtime Environment's members available in the global scope.
 
-import { mainTask0001_Deploy } from "./deployCircle";
+import { mainTask0001_Verify } from "./deployCircle";
+
 
 /**
 ✍ Script for deploying this strategy
@@ -12,8 +13,8 @@ import { mainTask0001_Deploy } from "./deployCircle";
 $ npx hardhat run release/next_release/deploy.ts --network bscTestnet
 */
 async function main() {
-    await mainTask0001_Deploy();
-    // await mainTask0002_Deploy();
+    await mainTask0001_Verify();
+    // . . . await mainTMP000"X"_Verify();
 }
 
 // We recommend this pattern to be able to use async/await everywhere
